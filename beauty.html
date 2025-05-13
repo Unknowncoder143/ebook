@@ -114,7 +114,12 @@
       <p><strong>Price:</strong> ₹999</p>
       <a class="buy-button" href="https://amzn.to/4kjGye9" 
          target="_blank"
-         onclick="fbq('track', 'Purchase', {value: 719.00, currency: 'INR'});">
+         onclick="fbq('track', 'Purchase', { 
+   value: 999.00, 
+   currency: 'INR', 
+   content_ids: ['2'], // Use your dynamic product ID here 
+   content_type: 'beauty' 
+});">
          Buy Now on Amazon
       </a>
 
